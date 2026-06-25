@@ -79,6 +79,7 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 2vw;
     background-color: white;
     border-radius: 10px;
@@ -92,4 +93,43 @@ img {
     border-radius: 10px;
     padding: 2vw;
     margin: 1vw;
+}
+.exp{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.exp-name{
+    padding: 1vw;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.exp-imgcontainer{
+    display: flex;
+    gap: 3vw;
+}
+.exp-img{
+    max-width: 300px;
+    max-height: 200px;
+    width: 30vw;
+    height: 20vw;
+}
+.hobby{
+    display: flex;
+    justify-content: center;
+}
+.hob-container{
+
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hob-img{
+    max-width: 130px;
+    max-height: 90px;
+    width: 15vw;
+    height: 10vw;
 }
