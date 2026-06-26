@@ -4,64 +4,66 @@ body{
     flex-direction: column;
     align-items: center;
     color: rgb(33, 88, 133);
+    font-size: 1.2vw;
     font-family: sans-serif;
 }
 .title{
     color: rgb(33, 88, 133);
-    font-size: 50px;
+    font-size: 3.2vw;
     font-family: monospace;
 }
 .topbar{
   
     width: 100%;
-    height: 70px;
+    height: 5vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
 
 }
 .bar{
-    width: 350px;
-    height: 50px;
+    width: 30vw;
+    height: 7vw;
     background-color: powderblue;
     border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 15px;
+    gap: 0.5vw;
     color: white;
 
 }
 .bar a {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1.5vw;
     font-family: monospace;
     color: rgb(33, 88, 133);
 }
 .current-page{
     color: white;
-    height: 50px;
+    height: 5vw;
     background-color: rgb(166, 203, 216);
     display: flex;
     justify-content: center;
     align-items:  center;
-    padding-left: 3px;
-    padding-right: 3px;
-    border-radius: 5px;
+    padding-left: 0.8vw;
+    padding-right: 0.8vw;
+    border-radius: 1vw;
 }
 hr.new1 {
-  border-top: 1px solid rgb(48, 140, 156);
+  border-top: 0.1vw solid rgb(48, 140, 156);
   width: 100%;
 }
 .profile-img{
     width: 100%;
     height:100%;
+    object-fit: cover;
 }
 img {
-    border-radius: 10px;
+      border-radius: 1vw;
 }
 .name  {
-    font-size: 30px;
+    font-size: 2vw;
     color: rgb(33, 88, 133);
     font-family: sans-serif;
 }
@@ -70,27 +72,27 @@ img {
     gap: 2vw;
 }
 .content1-left{
-    display: flex;
-    flex-direction: column;
+    width: 30vw;
+
 
 }
 .content1-right{
-    
+    width: 20vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 2vw;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 1vw;
     padding: 2vw;
 }
 .content2{
-    max-width: 735px;
-    width: 96%;
+  
+    width: 52vw;
     height: 30%;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 1vw;
     padding: 2vw;
     margin: 1vw;
 }
@@ -102,7 +104,7 @@ img {
 }
 .exp-name{
     padding: 1vw;
-    font-size: 20px;
+    /* font-size: 20px; */
     font-family: sans-serif;
     font-weight: bold;
 }
@@ -111,10 +113,9 @@ img {
     gap: 3vw;
 }
 .exp-img{
-    max-width: 300px;
-    max-height: 200px;
-    width: 30vw;
-    height: 20vw;
+
+    width: 15vw;
+    height: 10vw;
 }
 .hobby{
     display: flex;
@@ -128,8 +129,20 @@ img {
     align-items: center;
 }
 .hob-img{
-    max-width: 130px;
-    max-height: 90px;
-    width: 15vw;
-    height: 10vw;
+
+    width: 9vw;
+    height: 6vw;
+}
+
+b{
+    font-size: 1.5vw;
+}
+p{
+    font-size: 1.2vw;
+}
+h2{
+    font-size: 1.5vw;
+}
+li{
+    font-size: 1.1vw;
 }
